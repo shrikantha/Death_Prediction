@@ -31,7 +31,7 @@ on:
     branches: [ "main" ]
 
 env:
-  AWS_REGION: ap-south-1a                   # set this to your preferred AWS region, e.g. us-west-1
+  AWS_REGION: ap-south-1                  # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: deathprediction_group7           # set this to your Amazon ECR repository name
   ECS_SERVICE: deathprediction-service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: group7cluster                 # set this to your Amazon ECS cluster name
